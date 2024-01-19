@@ -1,6 +1,6 @@
 # Data Ethics Emergency Drill Toolbox
 
-![logo](./assets/img/DEED_logo.svg)]
+![logo](./assets/img/header.png)]
 
 
 ## About
