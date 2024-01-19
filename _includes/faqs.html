@@ -1,0 +1,52 @@
+<!-- FAQs -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].faqs.section | default: "FAQs" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].faqs.title | markdownify | default: "About" }}</h2>
+        </div>
+      </div>
+      
+      {% for pair in site.data.sitetext[site.locale].faqs.faqpairs %}
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <b>
+          <div class="large text">{{ pair.question | markdownify }}
+        </div>
+      </b>
+        <div class="large text-muted">{{ pair.answer | markdownify }}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+     
+      
+    
+    </div>
+  </section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].faqs.section | default: "FAQs" }}">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.faqs.title | default: "FAQ" }}</h2>
+      </div>
+    </div>
+  
+    <div class="row">
+        
+      {% for pair in site.data.sitetext[site.locale].faqpairs.list %}
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">{{ pair.question | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
+    
+  
+  </div>
+
+{% endif %}
+<!-- End FAQs -->
+

@@ -8,6 +8,7 @@
       display: block;
       max-width: 400px;
       margin: 0 auto;
+      border: 2px solid $gray-900;
       cursor: pointer;
       .portfolio-hover {
         position: absolute;
@@ -52,9 +53,8 @@
       }
       p {
         font-size: 16px;
-        font-style: italic;
         margin: 0;
-        @include serif-font;
+        @include body-font;
       }
     }
   }
@@ -77,10 +77,11 @@
   }
   .modal-content {
     padding: 100px 0;
-    text-align: center;
+    text-align: left;
     h2 {
       font-size: 3em;
       margin-bottom: 15px;
+      text-align: center;
     }
     p {
       margin-bottom: 30px;
@@ -90,6 +91,7 @@
       font-style: italic;
       margin: 20px 0 30px;
       @include serif-font;
+      text-align: center;
     }
     ul.list-inline {
       margin-top: 0;
