@@ -23,7 +23,8 @@ en: &DEFAULT_EN
     For example, a data ethics emergency could involve a hiring algorithm that, having been exclusively tested on young individuals, 
     demonstrates discriminatory behavior against older demographics once deployed. How would the team discover, remediate and address the problem? 
     The DEED’s main goal is to help technologists reflect on the ethics of their applications in a safe space and practice having conversations around ethical concerns
-    and doing this in a way that is relevant to the context of the specific system they are building."
+    and doing this in a way that is relevant to the context of the specific system they are building.
+    This project is part of [Vanessa Hanschke](https://www.vanessahanschke.com)'s PhD research at the University of Bristol. You can read our [CHI paper](https://arxiv.org/abs/2403.10438) to find out more about how we designed and evaluated the DEED."
     section: about
 
   services:
