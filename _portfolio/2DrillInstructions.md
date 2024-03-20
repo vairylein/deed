@@ -12,4 +12,4 @@ caption:
 
 After trying and testing the DEED method with a handful of data science teams, we have created a suggested structure for a successful drill experience. This includes how to set up the drill, who to include, etc. The toolbox includes a document to help you set up the drill on your own.
 
-We have a paper that will soon be published detailing drills we have run so far and the motivation behind the DEED, so stay tuned for this!
+Our [CHI paper](https://arxiv.org/abs/2403.10438) details the drills we have run so far and the motivation behind the DEED, so stay tuned for this!

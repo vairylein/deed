@@ -1,7 +1,11 @@
 # Data Ethics Emergency Drill Toolbox
 
-![logo](./assets/img/header.png)]
+![logo](./assets/img/header.png)
 
+
+## Paper
+
+Hanschke, Vanessa Aisyahsari, Dylan Rees, Merve Alanyali, David Hopkinson, and Paul Marshall. ["Data Ethics Emergency Drill: A Tool- box for Discussing Responsible AI for Industry Teams."](https://arxiv.org/abs/2403.10438) In Proceedings of the CHI Conference on Human Factors in Computing Systems. Association for Computing Machinery (ACM),(2024).
 
 ## About
 
