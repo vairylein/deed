@@ -24,7 +24,7 @@ en: &DEFAULT_EN
     demonstrates discriminatory behavior against older demographics once deployed. How would the team discover, remediate and address the problem? 
     The DEED’s main goal is to help technologists reflect on the ethics of their applications in a safe space and practice having conversations around ethical concerns
     and doing this in a way that is relevant to the context of the specific system they are building.
-    This project is part of [Vanessa Hanschke](https://www.vanessahanschke.com)'s PhD research at the University of Bristol. You can read our [CHI paper](https://arxiv.org/abs/2403.10438) to find out more about how we designed and evaluated the DEED."
+    This project is part of [Vanessa Hanschke](https://www.vanessahanschke.com)'s PhD research at the University of Bristol. You can read our [CHI paper](https://dl.acm.org/doi/10.1145/3613904.3642402) to find out more about how we designed and evaluated the DEED."
     section: about
 
   services:
@@ -65,14 +65,13 @@ en: &DEFAULT_EN
       - question: "Why is it called a drill?" 
         answer: "Telling someone about the evacuation plan for a fire emergency is not the same as testing the plan in a fire drill of the building. A fire drill can give you a clearer idea of how long it will take for people to react and if they will know how to move as a group with a sense of urgency. This is the experience we are trying to recreate in our data ethics emergency drills. Unlike common responsible AI tools such as frameworks and checklists, the DEED is embedded into the workplace context to give you a safe space to test out your responsible AI practice."
       - question: "What will the researcher get out of this? " 
-        answer: "I am interested in how the participants’ interaction shapes solution finding and the general types of problems and solutions that come up. I know that poking at the internal processes can be a sensitive topic, however, I am not interested in the specific issues of a participating team. Rather I am interested in the effectiveness of the method and how to improve the design and its replicability."
+        answer: "You are free to use the toolkit on your own. If you would like to collaborate with the research team, we are interested in how participants’ interaction shapes solution finding and the general types of problems and solutions that come up. We know that poking at the internal processes can be a sensitive topic, however, we are not interested in the specific issues of a participating team. Rather we are interested in the effectiveness of the method and how to improve the design and its replicability."
 
   contact:
     title: "Contact Us"
-    text: "We are looking for teams to test our toolbox.<br />
-            Register your interest via this [form](https://forms.office.com/e/NPSknaizV1)<br />
-            or<br />
-            ask us any question via email at [deed-study@bristol.ac.uk](mailto:deed-study@bristol.ac.uk)"
+    text: "We would love to tell you more about the toolkit.<br />
+            Get in touch or ask us any question <br />
+            via email at [deed-study@bristol.ac.uk](mailto:deed-study@bristol.ac.uk)"
     body: ""
     section: contact
 
