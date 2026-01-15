@@ -6,3 +6,6 @@ _site
 Gemfile.lock
 unused
 bootstrap-reference.html
+.DS_Store
+.AppleDouble
+.LSOverride
